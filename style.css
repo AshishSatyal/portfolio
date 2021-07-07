@@ -2,3 +2,55 @@
     margin:0;
     padding:0;
 }
+
+main{
+    display: flex;
+}
+
+aside{
+    background-color: rgb(235, 82, 82);
+    height: 100vh;
+    position: sticky;
+    top:0px;
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    z-index: 10;
+}
+
+section{
+    width:86%
+}
+
+.page{
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    text-transform: uppercase;
+    margin:10px;
+    padding: 010px;
+    font-size:18px;
+    text-align: center;
+}
+
+li:hover{
+    background-color: whitesmoke;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.profile-picture{
+    border-radius: 100px;
+    border: 5px solid rgba(139, 69, 19, 0.767);
+    box-shadow: 2px 1px 25px black;
+    margin-bottom:25px;
+}
